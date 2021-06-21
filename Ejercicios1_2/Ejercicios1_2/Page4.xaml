@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicios1_2.Page4">
+    <ContentPage.Content>
+        <StackLayout Padding="20,20,20,20">
+            <Label Text="Nombre" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+            </Label>
+            <Label Text="{Binding nombre}" FontSize="26"></Label>
+            <Label Text="Apellido" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+            </Label>
+            <Label Text="{Binding apellido}" FontSize="26"></Label>
+
+            <Label Text="Edad" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+            </Label>
+            <Label Text="{Binding Edad}" FontSize="26"></Label>
+            <Label Text="Correo" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+            </Label>
+            <Label Text="{Binding correo}" FontSize="26"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

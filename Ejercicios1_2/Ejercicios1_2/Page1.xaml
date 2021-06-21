@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicios1_2.Page1">
+    <ContentPage.Content>
+        <StackLayout Padding="10,10,10,10">
+            <Label Text="Numero 1" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+                
+            </Label>
+            <Entry Keyboard="Numeric" Placeholder="0.0" x:Name="n1">
+                
+            </Entry>
+            <Label Text="Numero 2" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+
+            </Label>
+            <Entry Keyboard="Numeric" Placeholder="0.0" x:Name="n2" >
+
+            </Entry>
+            <Button Text="Suma" x:Name="suma" BackgroundColor="Bisque" Padding="10,10,10,10" Margin="2,2,2,2" TextColor="Black" FontSize="18" Clicked="pageSuma">
+
+            </Button>
+            <Button Text="Resta" x:Name="resta" BackgroundColor="Bisque" Padding="10,10,10,10" Margin="2,2,2,2" TextColor="Black" FontSize="18" Clicked="pageResta">
+
+            </Button>
+            <Button Text="Multiplicacion" x:Name="Multiplicacion" BackgroundColor="Bisque" Padding="10,10,10,10" Margin="2,2,2,2" TextColor="Black" FontSize="18" Clicked="pageMultiplicacion">
+
+            </Button>
+            <Button Text="Division" x:Name="Division" BackgroundColor="Bisque" Padding="10,10,10,10" Margin="2,2,2,2" TextColor="Black" FontSize="18" Clicked="pageDivision">
+
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

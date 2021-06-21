@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicios1_2.Page2">
+    
+    <ContentPage.Content >
+        <ScrollView>
+            <StackLayout  Padding="10,10,10,10">
+
+                <Label Text="Nombre" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+                </Label>
+                <Entry Placeholder="Su nombre.." x:Name="nombre">
+
+                </Entry>
+                <Label Text="Apellido" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+                </Label>
+
+                <Entry Placeholder="Su apellido.." x:Name="apellido">
+
+                </Entry>
+                <Label Text="Edad" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+                </Label>
+                <Entry Keyboard="Numeric" Placeholder="Su edad.." x:Name="edad">
+
+                </Entry>
+                <Label Text="Correo" HorizontalTextAlignment="Start" TextColor="Black" FontSize="28">
+                </Label>
+
+                <Entry Placeholder="Su correo.." Keyboard="Email" x:Name="correo">
+
+                </Entry>
+                <Button Text="Enviar" x:Name="envio" BackgroundColor="Bisque" Padding="10,10,10,10" Margin="2,2,2,2" TextColor="Black" FontSize="18" Clicked="pageInformacion">
+
+                </Button>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
